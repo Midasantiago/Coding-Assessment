@@ -1,0 +1,51 @@
+:root {
+    --primary: #c0d6e4;
+    --secondary: #81a3d0;
+    --tertiary: #6897bb;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary);
+    color: #8787a5;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: var(--secondary);
+    width: 100%;
+    line-height: 80px;
+}
+
+header h1 {
+    display: inline;
+    margin: 0;
+    margin-left: 50px;
+}
+
+header h1:hover {
+    color: red;
+    cursor: pointer;
+}
+
+header p {
+    display: inline;
+    float: right;
+    margin-right: 50px;
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+.start-button:hover {
+    color: red;
+    cursor: pointer;
+}
