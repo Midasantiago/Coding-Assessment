@@ -6,7 +6,7 @@ A coding assessment webpage that provides a quick timed quiz with coding-related
 
 ## Screenshot
 
-
+![Full Web Page View](assets/images/Assessment Screenshot.png)
 
 ## Link to Page
 
