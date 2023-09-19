@@ -45,7 +45,34 @@ header p {
     font-size: 30px;
 }
 
+#root {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.title {
+    font-size: 70px;
+}
+
+.subtitle {
+    margin-top: -25px;
+    font-size: 30px;
+}
+
+.start-button {
+    padding-top: 30px;
+    font-size: 25px;
+    background-color: var(--tertiary);
+}
+
 .start-button:hover {
+    color: red;
+    cursor: pointer;
+}
+
+li:hover {
     color: red;
     cursor: pointer;
 }
